@@ -1,0 +1,16 @@
+.skylight-wrapper {
+  .skylight-dialog {
+    padding: 0 !important;
+    color: $white;
+    h2 {
+      padding: 10px;
+      background-color: $orange-base;
+      font-size: $font-size-32;
+      border-bottom: 5px solid $orange-001;
+    }
+    .skylight-close-button{
+      padding-top: 10px;
+      color:$white;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.button-orange {
+  width: 130px;
+  height:35px;
+  background-color: $orange-base;
+  color: $white;
+  border:0;
+  font-size: $font-size-14;
+  cursor:pointer;
+  span{
+      font-weight: bold;
+      font-size: $font-size-18;
+  }
+}

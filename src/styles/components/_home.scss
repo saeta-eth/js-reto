@@ -1,0 +1,52 @@
+.home {
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 96px 0;
+    @media screen and (max-width: 960px) {
+      min-width: 100%;
+      max-width: 100%;
+      padding: 48px 24px;
+    }
+    .header-home {
+      height: 50px;
+      padding-bottom: 5px;
+      width:100%;
+      .container-search {
+        width:50%;
+        display:inline-block;
+        button {
+            float: left;
+        }
+        input {
+          width:170px;
+          height: 35px;
+          border: 1px solid $orange-base;
+          :hover {
+            outline: none !important;
+          }
+        }
+        svg {
+          fill: $white;
+          cursor: pointer;
+          background-color: $orange-base;
+          width: 2em;
+          height: 2.2em;
+        }
+      }
+      .container-dialog {
+        width:50%;
+        float: right;
+        button {
+            float: right;
+        }
+      }
+    }
+    .container-home {
+        width:100%;
+    }
+  }
+}

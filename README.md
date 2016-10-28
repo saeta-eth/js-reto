@@ -49,4 +49,21 @@ Los requerimientos del desafío parecen imprecisos, eso está bien?
 - Esto está diseñado para que tenga un final abierto, así que sientase libre de tener creatividad en las áreas a las que les falta directrices detalladas.
 
 # Como correr Mi App (README.md)
---- Inserte su readme aquí ---
+
+Requerimientos:
+- Node.js v6.5.0
+- NPM 3.10.3
+
+Debes de correr `npm install` en tu consola. (Puede tardar unos minutos)
+Luego de este proceso, puedes correr `npm start`. Aparecera un mensaje que dice `Listening at http://localhost:3000/` y luego los logs de webpack.
+A partir de este momento, podes entrar desde tu navegador y visualizar el prototipo.
+
+##### Estructura de Carpetas
+- `components`: Aqui encontraras los diferentes componentes, que requirio el prototipo
+- `stores`: Aqui se encuentran el manejo de Mobx.
+- `styles`: Aqui se encuentran los estilos separados dependiendo su funcion:
+  - `base`: Estilos generales, se usan en toda la aplicacion.
+  - `components`: Se encuentran los estilos de cada componente.
+- `utils`: funciones genericas que son de utilidad y que no pertecen a la logica del negocio.
+
+

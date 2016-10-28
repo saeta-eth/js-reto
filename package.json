@@ -1,5 +1,5 @@
 {
-  "name": "JS Reto AgileFeat",
+  "name": "JS-Reto-AgileFeat",
   "version": "1.0.0",
   "description": "JS Reto",
   "main": "webpack.config.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "AgileFeat",
     "Challange",
-    "JS Reto"
+    "JS Reto",
     "React",
     "React-Router",
     "MobX",
@@ -53,7 +53,7 @@
     "mobx-react-devtools": "^4.2.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-router": "^4.0.0-alpha.4",
+    "react-router": "^4.0.0-alpha.4"
   },
   "repository": {
     "url": "git@github.com:epimaxsa/js-reto.git",

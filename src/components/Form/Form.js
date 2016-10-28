@@ -40,7 +40,6 @@ export default class Form extends Component {
       }
     }
     if (_.isEmpty(emptyFields)) {
-      console.log(this.productKepper)
       this.props.onSuccess(this.productKepper)
     } else {
       this.setState({

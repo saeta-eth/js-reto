@@ -48,12 +48,15 @@
   },
   "dependencies": {
     "axios": "^0.15.0",
+    "fixed-data-table": "^0.6.3",
     "mobx": "^2.5.2",
     "mobx-react": "^3.5.7",
     "mobx-react-devtools": "^4.2.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-router": "^4.0.0-alpha.4"
+    "react-icons": "^2.2.1",
+    "react-router": "^4.0.0-alpha.4",
+    "react-skylight": "^0.4.1"
   },
   "repository": {
     "url": "git@github.com:epimaxsa/js-reto.git",
